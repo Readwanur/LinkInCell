@@ -19,8 +19,23 @@
 
 You can install `LinkInCell` directly from PyPI using pip:
 
-bash
+```bash
 pip install LinkInCell
+```
+
+# How to install this package in your system
+
+```bash
+conda create -n LinkInCell_env python=3.8 -y
+```
+
+```bash
+conda activate LinkInCell_env
+```
+
+```bash
+pip install -r requirements_dev.txt
+```
 
 
 ## 🚀 Usage
