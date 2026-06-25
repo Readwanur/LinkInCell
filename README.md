@@ -23,6 +23,18 @@ You can install `LinkInCell` directly from PyPI using pip:
 pip install LinkInCell
 ```
 
+```bash
+from LinkInCell.youtube import render_youtube
+
+render_youtube("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
+```
+
+```bash
+from LinkInCell.web import render_web
+
+render_web("https://www.google.com/")
+```
+
 # How to install this package in your system
 
 ```bash
