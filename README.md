@@ -23,13 +23,13 @@ You can install `LinkInCell` directly from PyPI using pip:
 pip install LinkInCell
 ```
 
-```bash
+```python
 from LinkInCell.youtube import render_youtube
 
 render_youtube("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
 ```
 
-```bash
+```python
 from LinkInCell.web import render_web
 
 render_web("https://www.google.com/")
@@ -74,7 +74,7 @@ render_youtube("https://www.youtube.com/watch?v=dQw4w9WgXcQ", width=800, height=
 
 ## 🛠️ Requirements
 
-* Python 3.6+
+* Python 3.8+
 * Jupyter Notebook or JupyterLab
 * `IPython` (Usually comes pre-installed with Jupyter)
 
