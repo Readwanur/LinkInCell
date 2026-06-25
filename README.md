@@ -1,8 +1,8 @@
 # LinkInCell 🔗
 
-[![PyPI version](https://badge.fury.io/py/LinkInCell.svg)](https://badge.fury.io/py/LinkInCell)
+[![PyPI version](https://badge.fury.io/py/LinkInCell.svg)](https://pypi.org/project/LinkInCell/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/LinkInCell.svg)](https://pypi.org/project/LinkInCell/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/Readwanur/LinkInCell/blob/main/LICENSE)
 
 **LinkInCell** is a lightweight PyPI package that brings the web to your Jupyter environment. It allows you to seamlessly render fully interactive websites and embedded YouTube videos directly inside your `.ipynb` notebook cells.
 
@@ -26,13 +26,13 @@ pip install LinkInCell
 ```python
 from LinkInCell.youtube import render_youtube
 
-render_youtube("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
+render_youtube("https://www.youtube.com/watch?v=qJACTDMfBvc&pp=0gcJCUELAYcqIYzv")
 ```
 
 ```python
 from LinkInCell.web import render_web
 
-render_web("https://www.google.com/")
+render_web("https://pytorch.org/")
 ```
 
 # How to install this package in your system
@@ -60,7 +60,7 @@ Using `LinkInCell` is incredibly simple. Import the package and pass your target
 from LinkInCell.web import render_web
 
 # Render a full webpage inside your notebook cell
-render_web("https://en.wikipedia.org/wiki/Python_(programming_language)", width="100%", height="500px")
+render_web("https://pandas.pydata.org/", width="100%", height="500px")
 ```
 
 ### 2. Rendering a YouTube Video
