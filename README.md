@@ -56,20 +56,21 @@ Using `LinkInCell` is incredibly simple. Import the package and pass your target
 
 ### 1. Rendering a Website
 
-python
-from linkincell import render_web
+```python
+from LinkInCell.web import render_web
 
 # Render a full webpage inside your notebook cell
 render_web("https://en.wikipedia.org/wiki/Python_(programming_language)", width="100%", height="500px")
-
+```
 
 ### 2. Rendering a YouTube Video
 
-python
-from linkincell import render_youtube
+```python
+from LinkInCell.youtube import render_youtube
 
 # Pass the standard YouTube URL or the video ID
 render_youtube("https://www.youtube.com/watch?v=dQw4w9WgXcQ", width=800, height=450)
+```
 
 
 ## 🛠️ Requirements
